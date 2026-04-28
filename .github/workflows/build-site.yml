@@ -53,4 +53,4 @@ jobs:
 
           git add .
           git commit -m "Build site"
-          git push -f origin s;ite
+          git push -f origin site
