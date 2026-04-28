@@ -22,7 +22,7 @@ jobs:
       - name: Build site
         run: |
           # adjust input directory if needed (e.g. content/)
-          ./foxbase -d . -o dist
+          ./foxbase -d content -o dist
 
           if [ ! -d "dist" ] || [ -z "$(ls -A dist)" ]; then
             echo "Build failed: dist is missing or empty"
@@ -53,4 +53,4 @@ jobs:
 
           git add .
           git commit -m "Build site"
-          git push -f origin site
+          git push -f origin s;ite
