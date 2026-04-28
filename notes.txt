@@ -1,0 +1,7 @@
+mkdir content
+cd content
+git init
+
+
+
+
